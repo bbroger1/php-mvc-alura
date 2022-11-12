@@ -1,0 +1,20 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Alura\\Courses\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.6",
+        "doctrine/dbal": "^2.13",
+        "doctrine/annotations": "^1.13",
+        "symfony/console": "^3.4",
+        "symfony/cache": "^5.4",
+        "doctrine/migrations": "2.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "ocramius/package-versions": true
+        }
+    }
+}
